@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:text="Welcome"
+        android:textColor="#D7E08D"
+        android:layout_marginTop="90dp"
+        android:id="@+id/textTitle"/>
+    <!--#00CED1 -->
+    <TextView
+        android:id="@+id/textTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:text="to"
+        android:textStyle="bold"
+        android:textColor="#D7E08D"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle2"
+        android:layout_centerHorizontal="true"
+        android:text="Quizcloud"
+        android:textStyle="bold"
+        android:textColor="#D7E08D"
+        android:textSize="45sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnNameScreen"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:text="Start"
+        />
+
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnNameScreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:onClick="clickToExit"
+        android:text="Exit" />
+
+</RelativeLayout>
